@@ -8,3 +8,5 @@ weight: "1"
 Oct 07:	[Hellevator M/V](https://youtu.be/AdfIfFGCqgo)
 
 Nov 01:	[Hellevator Performance Video](https://www.vlive.tv/video/46525)
+
+Jan 01: [Seungmin "Love Again"]()
