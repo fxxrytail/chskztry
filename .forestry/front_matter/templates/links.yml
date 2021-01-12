@@ -1,4 +1,34 @@
 ---
 label: links
 hide_body: true
-fields: []
+fields:
+- name: linkgrp
+  type: field_group_list
+  fields:
+  - name: contentDate
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: field
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: field
+  - name: tags
+    type: tag_list
+    default: []
+    label: tags
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: LinkGrp
